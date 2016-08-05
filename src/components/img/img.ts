@@ -4,7 +4,9 @@ import { nativeRaf } from '../../util/dom';
 import { isPresent } from '../../util/util';
 import { Platform } from '../../platform/platform';
 
-
+/** 
+* To be used in VirtualScroll element
+*/
 @Component({
   selector: 'ion-img',
   template:
